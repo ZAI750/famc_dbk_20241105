@@ -63,7 +63,7 @@ class AuthController extends Controller
                     "msg"=> ""
             ],
             "data"=>[
-                "acess_token"=> $token,
+                "access_token"=> $token,
                 "token_type" =>"Bearer"
             ],
             "msg"=>"Ha iniciado sesion correctamente",
